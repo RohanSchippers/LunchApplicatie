@@ -1,0 +1,82 @@
+.font {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1.font {
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkorange;
+    text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.5); /* Horizontal and vertical offsets, blur radius, and shadow color */
+}
+
+label {
+    font-weight: bold;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-width: 175px;
+}
+
+#name.form-input,
+#password.form-input
+{
+    border-color: #95570F;
+    border-width: 3px;
+    width: calc(100% - 100px);
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#name.form-input:focus,
+#password.form-input:focus {
+    box-shadow: none;
+}
+
+.login-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: auto;
+    height: auto;
+    max-width: 60px;
+}
+
+#login-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.login-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.bottom-text > h2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container.main-content {
+    margin-top: 30px;
+}
+
+
+
